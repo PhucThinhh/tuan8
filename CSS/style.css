@@ -1,0 +1,32 @@
+#banner{
+    width: 100%;
+}
+.bannerimg{
+    width: 100% ;
+    height: 220px;
+}
+#menu{
+    display: flex;
+    justify-content:start ;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.menu2{
+    margin-right: 30px;
+    
+}
+#danhsach{
+    display: flex;
+    justify-content: space-around;
+}
+#kq{
+    display: flex;
+    
+}
+/* .kqt{
+    margin-right: 140px; */
+}
+.dst{
+    margin-right: 140px;
+}
