@@ -24,9 +24,15 @@
     display: flex;
     
 }
-/* .kqt{
-    margin-right: 140px; */
-}
 .dst{
     margin-right: 140px;
+}
+#usr{
+    width: 550px;
+}
+#pwd{
+    width: 550px;
+}
+#date{
+    width: 550px;
 }
