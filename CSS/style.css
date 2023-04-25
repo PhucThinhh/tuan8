@@ -14,7 +14,6 @@
 }
 .menu2{
     margin-right: 30px;
-    
 }
 #danhsach{
     display: flex;
@@ -26,6 +25,7 @@
 }
 .dst{
     margin-right: 140px;
+    font-weight: bolder;
 }
 #usr{
     width: 550px;
@@ -35,4 +35,16 @@
 }
 #date{
     width: 550px;
+}
+#Datlich{
+    color: black;
+}
+#Datlich:hover{
+    color: rgb(0, 21, 255);
+}
+#Trangchu:hover{
+    color: blue;
+}
+#Trangchu{
+    color: black;
 }

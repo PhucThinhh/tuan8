@@ -17,29 +17,29 @@
         </div>
         <hr style="border: 1px solid black;">
         <div id="menu">
-            <a  class="menu2" href="">Trang chủ</a>
-            <a data-toggle="modal" data-target="#myModal" class="menu2" href="">Đặt lịch</a>
+            <a id="Trangchu" tyle="color: black;" class="menu2" href="">Trang chủ</a>
+            <a id="Datlich" data-toggle="modal" data-target="#myModal" class="menu2" href="">Đặt lịch</a>
         </div>
         <br>
         <br>
         <hr style=" border: 1px solid black;">
         <div>
             <div id="danhsach">
-                <h3 class="dst">STT</h3>
-                <h3 class="dst">Mã bệnh nhân</h3>
-                <h3 class="dst">Mật khẩu</h3>
-                <h3 class="dst">Ngày khám</h3>
-                <h3 class="dst">Phụ thu dịch vụ</h3>
-                <h3 class="dst">Chuyên khoa</h3>
+                <h5 class="dst">STT</h5>
+                <h5 class="dst">Mã bệnh nhân</h5>
+                <h5 class="dst">Mật khẩu</h5>
+                <h5 class="dst">Ngày khám</h5>
+                <h5 class="dst">Phụ thu dịch vụ</h5>
+                <h5 class="dst">Chuyên khoa</h5>
             </div>
             <hr>
             <div id="kq">
-                <p style="margin-left:100px;" class="kqt">1</p>
-                <p style="margin-left:210px;" class="kqt">123456a</p>
-                <p style="margin-left:255px;" class="kqt">BN-012345</p>
-                <p style="margin-left:190px;" class="kqt">12/8/2020</p>
+                <p style="margin-left:40px;" class="kqt">1</p>
+                <p style="margin-left:225px;" class="kqt">123456a</p>
+                <p style="margin-left:248px;" class="kqt">BN-012345</p>
+                <p style="margin-left:200px;" class="kqt">12/8/2020</p>
                 <p style="margin-left:220px;" class="kqt">1000000</p>
-                <p style="margin-left:260px;" class="kqt">Ngoại tổng quát</p>
+                <p style="margin-left:265px;" class="kqt">Ngoại tổng quát</p>
             </div>
         </div>
         <hr style="border: 1px solid black;">
@@ -60,7 +60,7 @@
                           <form>
                             <div class="form-group">
                               <label for="usr">Name:</label>
-                              <input style="10px" type="text" class="form-control" id="usr">
+                              <input type="text" class="form-control" id="usr">
                             </div>
                             <div class="form-group">
                               <label for="pwd">Password:</label>
@@ -69,6 +69,20 @@
                             <div class="form-group">
                               <label for="date">Ngày khám</label>
                               <input type="date" class="form-control" id="date">
+                            </div>
+                            <div class="form-group">
+                              <label for="">Loại dịch vụ</label> <br>
+                              <input type="checkbox" id="check" checked> khám bệnh theo yêu cầu
+                              <input type="checkbox" id="check" checked> Điều trị ngoại trú
+                              <input type="checkbox" id="check"> Bác sĩ theo yêu cầu
+                            </div>
+                            <div class="form-group">
+                              <label for="usr">Chuyên khoa:</label>
+                              <select name="" id="pwd" class="form-control">
+                                <option value="">Ngoại tổng quát</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                              </select>
                             </div>
                           </form>
                         </div>
